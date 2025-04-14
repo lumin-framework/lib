@@ -6,11 +6,12 @@
     "description": "A Fivem script library with static type inference",
     "scripts": {
         "build": "tsup",
-        "test": "uvu src/lib/__tests__"
+        "test": "uvu src/__tests__ --require ts-node/register"
     },
     "keywords": [],
     "packageManager": "pnpm@10.6.4",
     "devDependencies": {
+        "ts-node": "^10.9.2",
         "tsup": "^8.4.0",
         "typescript": "^5.8.3",
         "uvu": "^0.5.6"
