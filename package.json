@@ -5,12 +5,14 @@
     "author": "DrunkTaric",
     "description": "A Fivem script library with static type inference",
     "scripts": {
-        "build": "tsc -b",
+        "build": "tsup",
         "test": "uvu src/lib/__tests__"
     },
     "keywords": [],
     "packageManager": "pnpm@10.6.4",
     "devDependencies": {
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.3",
         "uvu": "^0.5.6"
     },
     "dependencies": {
