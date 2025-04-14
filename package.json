@@ -1,0 +1,19 @@
+{
+    "name": "lib",
+    "license": "ISC",
+    "version": "0.0.1",
+    "author": "DrunkTaric",
+    "description": "A Fivem script library with static type inference",
+    "scripts": {
+        "build": "tsc -b",
+        "test": "uvu src/lib/__tests__"
+    },
+    "keywords": [],
+    "packageManager": "pnpm@10.6.4",
+    "devDependencies": {
+        "uvu": "^0.5.6"
+    },
+    "dependencies": {
+        "zod": "^3.24.2"
+    }
+}
